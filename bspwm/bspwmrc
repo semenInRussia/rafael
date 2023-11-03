@@ -37,4 +37,4 @@ picom &
 # tochegg &
 
 # Wallpaper
-feh --bg-scale ~/Pictures/rafael.jpg &
+feh --bg-scale ~/.config/wallpapers/rafael.jpg &
