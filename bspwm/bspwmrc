@@ -20,7 +20,6 @@ bspc rule -a Emacs desktop='^4' state="tiled"
 # i'm using my browser on desktop 2
 bspc rule -a google-chrome-stable desktop='^2'
 bspc rule -a firefox desktop='^2'
-
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a mplayer2 state=floating
 # bspc rule -a Kupfer.py focus=on
