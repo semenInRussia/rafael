@@ -5,6 +5,13 @@ configuration {
 
 @theme "gruvbox-dark"
 
+window {
+  border-radius: 2;
+  border-size: 1;
+  border-color: #fb4934;
+  width: 20%;
+}
+
 element normal.normal {
   padding: 20;
   style: "italic";
