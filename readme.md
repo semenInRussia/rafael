@@ -1,7 +1,8 @@
 "Rafael" Rice
 ---
 
-![a "sexy" screenshot](./doc/screen.jpg)
+![a "sexy" screenshot](./doc/screen1.jpg)
+![a "sexy" screenshot TWO](./doc/screen2.jpg)
 
 ## Components
 
