@@ -16,7 +16,10 @@ bspc config borderless_monocle  false
 bspc config gapless_monocle     true
 
 # Rules
-bspc rule -a Emacs state="tiled"
+bspc rule -a Emacs desktop='^4' state="tiled"
+# i'm using my browser on desktop 2
+bspc rule -a google-chrome-stable desktop='^2'
+bspc rule -a firefox desktop='^2'
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a mplayer2 state=floating
