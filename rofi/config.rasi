@@ -1,25 +1,73 @@
+/*****----- Configuration -----*****/
 configuration {
-  modes: [ combi ];
-  combi-modes: [ window, drun, run ];
+  font:                       "Iosevka Nerd Font 18";
+  terminal:                   "alacritty";
+  modi:                       "drun";
+  drun-display-format:        "{icon}  {name}";
 }
 
 @theme "gruvbox-dark"
 
 window {
-  border-radius: 2;
-  border-size: 1;
-  border-color: #fb4934;
-  width: 20%;
+  border:               0px;
+  width:                350px;
+  spacing:              20px;
+  padding:              50px;
+  scrollbar:            false;
+}
+
+element {
+  background-color:            "#282828";
+}
+
+textbox {
+  padding:                     15px;
+  text-color:                  @foreground;
+  vertical-align:              0.5;
+  horizontal-align:            0.0;
 }
 
 element normal.normal {
-  padding: 20;
-  style: "italic";
+  background-color:            "#282828";
 }
 
-* {
-  border-color: rgba(0, 0, 0, 0);
-  border-size: 2;
-  padding: 4;
-  font: "Iosevka Nerd Font";
+element normal.urgent {
+  text-color:                  @foreground;
 }
+
+element normal.active {
+  text-color:                  @foreground;
+}
+
+element selected.urgent {
+  text-color:                  @foreground;
+}
+element selected.active {
+  text-color:                  @foreground;
+}
+
+element-icon {
+  background-color:            transparent;
+  text-color:                  inherit;
+  size:                        32px;
+  cursor:                      inherit;
+}
+
+element-text {
+  background-color:            transparent;
+  text-color:                  inherit;
+  cursor:                      inherit;
+  vertical-align:              0.5;
+  horizontal-align:            0.0;
+}
+
+error-message {
+  padding:                     15px;
+  background-color:            @background;
+  text-color:                  @foreground;
+}
+
+
+// // Local Variables:
+// // comment-start: "//"
+// // End:
