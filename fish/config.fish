@@ -9,4 +9,7 @@ set -g fish_greating
 alias em=emacsclient
 
 # `yz` to start the TUI file manager inside CWD
-alias yz=yazi
+alias yz="yazi"
+
+# use vtop with other theme, pls
+alias vtop="vtop --theme=acid"
