@@ -6,7 +6,10 @@
 super + Return
 	alacritty
 
-# program launcher
+super + e
+  emacs
+
+# program launcher (run a program)
 super + @space
   rofi -show drun -icon-theme "Delight-dark" -show-icons
 
