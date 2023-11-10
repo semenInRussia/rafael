@@ -9,7 +9,7 @@
 /cef_user_data/
 /evolution/
 /doomemacs/
-/emacs/
+# /emacs/
 /doom/
 /dconf/
 /falkon/
