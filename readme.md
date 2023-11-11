@@ -6,12 +6,12 @@
 
 ## Components
 
-- bspwm
-- Picom
-- Alacritty
-- Yazi
-- Polybar
-- Emacs (see my dots in other [repo](https://github.com/semenInRussia/emacs.el))
+- [bspwm](https://github.com/baskerville/bspwmm "a simple, but powerful WM")
+- [Picom](https://github.com/yshui/picom "famous compositor")
+- [Alacritty](https://github.com/alacritty/alacritty "the tRust terminal")
+- [Yazi](https://github.com/sxyazi/yazi "ranger, but in Rust so faster")
+- [Polybar](https://github.com/polybar/polybar/ "sexy status bar")
+- [Emacs](https://youtu.be/V3QF1uAvbkU?si=CPC71OCYCBASQnbV "emacs, yemacs, emacs!") (see my dots in other [repo](https://github.com/semenInRussia/emacs.el))
 
 ## Why "Rafael"?
 
