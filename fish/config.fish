@@ -13,3 +13,5 @@ alias yz="yazi"
 
 # use vtop with other theme, pls
 alias vtop="vtop --theme=acid"
+
+export XDG_SESSION_TYPE=x11
