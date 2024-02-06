@@ -1,24 +1,14 @@
 import = ["/home/semeninrussia/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+# import = ["/home/semeninrussia/.config/alacritty/themes/themes/ toml"]
+
+
+[window]
+padding = { x = 15, y = 0 }
+opacity = 0.95
 
 [font]
 size = 15.0
 
-[font.bold]
-family = "JetBrainsMonoNerdFont"
-style = "Bold"
-
-[font.bold_italic]
-family = "JetBrainsMonoNerdFont"
-style = "Bold Italic"
-
-[font.italic]
-family = "JetBrainsMonoNerdFont"
-style = "Italic"
-
 [font.normal]
 family = "JetBrainsMonoNerdFont"
 style = "Regular"
-
-[window.padding]
-x = 15
-y = 10
