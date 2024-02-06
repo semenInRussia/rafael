@@ -17,7 +17,7 @@
     #
     # If this option is set to mouse or keyboard, the monitor option
     # will be ignored.
-    follow = mouse
+    follow = none
 
     ### Geometry ###
 
@@ -30,7 +30,7 @@
     height = 600
 
     # Position the notification in the top right corner
-    origin = top-left
+    origin = bottom-left
 
     # Offset from the origin
     # "first number is x-offset, the second is y-offset" @semenInRussia
@@ -214,10 +214,7 @@
     # Scale small icons up to this size, set to 0 to disable. Helpful
     # for e.g. small files or high-dpi screens. In case of conflict,
     # max_icon_size takes precedence over this.
-    min_icon_size = 32
-
-    # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 128
+    min_icon_size = 37
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
     icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
@@ -318,7 +315,7 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#222222"
     foreground = "#888888"
-    timeout = 10
+    timeout = 1
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
@@ -327,7 +324,7 @@
     # gruvbox theme" @semenInRussia
     background = "#282828"
     foreground = "#ebdbb2"
-    timeout = 10
+    timeout = 5
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 
