@@ -43,4 +43,4 @@ polybar &
 picom &
 
 # Wallpaper
-feh --bg-scale ~/.config/wallpapers/rafael.jpg &
+feh --bg-scale ~/wallpapers/rafael.jpg &
