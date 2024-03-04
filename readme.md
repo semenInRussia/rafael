@@ -14,6 +14,31 @@
 - [Polybar](https://github.com/polybar/polybar/ "sexy status bar")
 - [Emacs](https://youtu.be/V3QF1uAvbkU?si=CPC71OCYCBASQnbV "emacs, yemacs, emacs!") (see my dots in other [repo](https://github.com/semenInRussia/emacs.el))
 
+## Install
+
+Install requirements like (* means that it's required):
+
+- `stow`* (a config manager)
+- `bspwm`*
+- `sxhkd`*
+- `polybar`*
+- `rofi`*
+- `feh` (for wallpapers)
+- `fish` (a shell)
+- `nerd-fonts` (a fonts and icons)
+- `hunspell`
+- `enhcant` (spell checkers)
+- `btop` (a task manager)
+- `toucegg` (gestures for touche-pad)
+
+Just clone to any directory and use `stow`:
+
+```shell
+git clone https://github.com/semenInRussia/rafael
+cd rafael
+stow .
+```
+
 ## Why "Rafael"?
 
 Because the name of my cat is Rafael.
