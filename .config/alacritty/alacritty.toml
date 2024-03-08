@@ -1,9 +1,8 @@
-import = ["/home/semeninrussia/.config/alacritty/themes/themes/gruvbox_dark.toml"]
-# import = ["/home/semeninrussia/.config/alacritty/themes/themes/ toml"]
+import = ["~/.config/alacritty/gruvbox-dark.toml"]
 
 
 [window]
-padding = { x = 15, y = 0 }
+padding = { x = 15, y = 15 }
 opacity = 0.95
 
 [font]
